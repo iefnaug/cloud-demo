@@ -1,0 +1,18 @@
+GET http://localhost:8088/order/101
+
+###
+GET http://localhost:8081/user/prop
+Accept: application/json
+
+
+### test
+GET http://localhost:8088/order/user
+
+###
+GET http://localhost:8088/order/lock
+
+### gateway
+GET http://localhost:10010/user/1?authorization=admin
+
+###
+GET http://localhost:10010/order/101
